@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    counter-reset: none;
+
+}
+.My-art{
+    margin-left: 20px;
+    border: white solid 2px;
+    padding: 10px;
+}
+.a{
+    text-decoration: none;
+}
+.About{
+    margin-right: 20px;
+    text-decoration:none ;
+    color: black;
+    border: white solid 2px;
+    padding: 10px;
+    /* text-size-adjust: 20px; */
+    /* line-height: 10px; */
+}
+.My-art:hover{
+    background-color: aliceblue;
+
+}
+.About:hover{
+    background-color: aliceblue;
+}
+.images{
+    margin: 15px;
+    /* display: grid;
+    grid-template-rows: 50% 50% 50% 50% 50%;
+    grid-template-columns: 200px 200px;
+    grid-gap: 0px;
+    grid-template-areas: "A B"
+                         "C D"
+                         "E F"; */
+    
+
+}
+.img1{
+    height: 400px;
+    width: 50%;
+}
+#text{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#img6{
+    width: 100px;
+    height: 200px;
+}
+
